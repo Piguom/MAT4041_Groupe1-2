@@ -1,4 +1,4 @@
-package Fenetre;
+import Fenetre.Fenetre;
 
 public class Main {
 	
