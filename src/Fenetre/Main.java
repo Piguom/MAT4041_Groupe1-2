@@ -1,22 +1,11 @@
 package Fenetre;
 
-import javax.swing.JFrame;
-
-public class Main extends JFrame{
+public class Main {
 	
-	/**
-	 * 
-	 */
-	private static final long serialVersionUID = 1L;
-	private JFrame frame;
+	private static Fenetre fen;
 	
-	public Main() {
-
-		frame = new JFrame("Processus stochastiques appliqués au problème de la file d'attente");
-		frame.setSize(1000,600);
-		frame.setLocationRelativeTo(null);
-		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		frame.setVisible(true);	
-	}
+	public static void main(String args[]){
+		fen = new Fenetre();
+	} 
 
 }
