@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="res"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="F:/ESIEA-4ACFA 2016-2017/Processus stochastiques/2017/MAT4041_Groupe1-2/res/json-simple-1.1.jar"/>
+	<classpathentry kind="lib" path="F:/ESIEA-4ACFA 2016-2017/Processus stochastiques/2017/MAT4041_Groupe1-2/res/java-json.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
