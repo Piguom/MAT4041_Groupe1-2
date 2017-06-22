@@ -1,5 +1,13 @@
 # Gestion de file d'attente d'un supermarchÃ©
 
+## Réalisation
+```
+Ce projet à été réalisé par 3 étudiants en 4ème année d'écolé d'ingénieur à l'ESIEA pour le cours de Processus Stochastique.\n
+Geoffrey DEMOLON
+Maxime ERDEM
+Pierre FRIN
+```
+
 ## ProblÃ¨matique
 On souhaite Ã©tudier quelques aspects de l'organisation des caisses de supermarchÃ©, et Ã©ventuellement l'optimisation du systÃ¨me. 
 Il y a un nombre ni de caisses.
@@ -11,27 +19,27 @@ L'organisation classique consiste Ã  avoir une queue par caisse. Une organisatio
 C'est le package qui contient la classe principale du lancement de l'application
 ```
 
-* Fenetre :: 
+* Fenetre 
 ```
 C'est le package qui contient tous les Ã©lÃ©ments principaux de notre fenÃªtre d'application
 ```
 
-* ButtonsActions :: 
+* ButtonsActions 
 ```
 C'est le package qui contient tous les boutons disponibles entrainant une action sur l'application
 ```
 
-* Caisses :: 
+* Caisses 
 ```
 C'est le package qui gÃ¨re les caisses
 ```
 
-* Clients :: 
+* Clients 
 ```
 C'est le package qui gÃ¨re les clients
 ```
 
-* Simulateur :: 
+* Simulateur 
 ```
 C'est le package qui simule la file d'attente et tout ce qui va bien autour
 ```
