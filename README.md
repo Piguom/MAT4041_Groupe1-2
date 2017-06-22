@@ -1,4 +1,4 @@
-# Gestion de file d'attente d'un supermarchÃ©
+# Gestion de file d'attente d'un supermarché
 
 ## Réalisation
 ```
@@ -8,10 +8,10 @@ Maxime ERDEM
 Pierre FRIN
 ```
 
-## ProblÃ¨matique
-On souhaite Ã©tudier quelques aspects de l'organisation des caisses de supermarchÃ©, et Ã©ventuellement l'optimisation du systÃ¨me. 
+## Problèmatique
+On souhaite étudier quelques aspects de l'organisation des caisses de supermarché, et éventuellement l'optimisation du système. 
 Il y a un nombre ni de caisses.
-L'organisation classique consiste Ã  avoir une queue par caisse. Une organisation alternative consiste Ã  n'avoir qu'une seule queue, et le premier dans la queue va Ã  la premiÃ¨re caisse qui se libÃ¨re.         Comment modÃ©liser l'arrivÃ©e de clients aux caisses, et le temps de traitement de chaque caisse ?                                  Comment s'assurer que la taille de la ou des queues (nombre total de personnes en attente) n'explose pas ?
+L'organisation classique consiste Ã  avoir une queue par caisse. Une organisation alternative consiste Ã  n'avoir qu'une seule queue, et le premier dans la queue va à  la première caisse qui se libère.         Comment modéliser l'arrivée de clients aux caisses, et le temps de traitement de chaque caisse ?                                  Comment s'assurer que la taille de la ou des queues (nombre total de personnes en attente) n'explose pas ?
 
 ## Packages
 * Main 
@@ -21,7 +21,7 @@ C'est le package qui contient la classe principale du lancement de l'application
 
 * Fenetre 
 ```
-C'est le package qui contient tous les Ã©lÃ©ments principaux de notre fenÃªtre d'application
+C'est le package qui contient tous les éléments principaux de notre fenêtre d'application
 ```
 
 * ButtonsActions 
@@ -31,12 +31,12 @@ C'est le package qui contient tous les boutons disponibles entrainant une action
 
 * Caisses 
 ```
-C'est le package qui gÃ¨re les caisses
+C'est le package qui gère les caisses
 ```
 
 * Clients 
 ```
-C'est le package qui gÃ¨re les clients
+C'est le package qui gère les clients
 ```
 
 * Simulateur 
@@ -45,6 +45,6 @@ C'est le package qui simule la file d'attente et tout ce qui va bien autour
 ```
 
 ## Fonctionnement principale
-Il est nÃ©cessaire d'avoir exÃ©cuter le fichier "simulation" en bash qui retourne un fichier JSON qui est ensuite traitÃ© par l'application. Ce fichier JSON est le rÃ©sultat de la simulation crÃ©Ã© alÃ©atoire par notre programme "simulation.cpp" codÃ© en C++.
-Lorsque le fichier JSON est Ã  la racine du projet (mÃªme niveau que le dossier "src"), alors le programme lance l'application qui s'occupe d'interprÃªter graphiquement les donnÃ©es retournÃ©e par le script en C++.
+Il est nécessaire d'avoir exécuter le fichier "simulation" en bash qui retourne un fichier JSON qui est ensuite traité par l'application. Ce fichier JSON est le résultat de la simulation créé aléatoire par notre programme "simulation.cpp" codé en C++.
+Lorsque le fichier JSON est Ã  la racine du projet (mÃªme niveau que le dossier "src"), alors le programme lance l'application qui s'occupe d'interprÃªter graphiquement les données retournée par le script en C++.
 
