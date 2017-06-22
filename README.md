@@ -2,7 +2,7 @@
 
 ## Réalisation
 ```
-Ce projet à été réalisé par 3 étudiants en 4ème année d'écolé d'ingénieur à l'ESIEA pour le cours de Processus Stochastique.\n
+Ce projet à été réalisé par 3 étudiants en 4ème année d'écolé d'ingénieur à l'ESIEA pour le cours de Processus Stochastique.
 Geoffrey DEMOLON
 Maxime ERDEM
 Pierre FRIN
