@@ -19,7 +19,7 @@ import Simulateur.Simulateur;
 public class Main {
 	
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws IOException {
         ArrayList<ArrayList<Caisse>> data_AL = new ArrayList<ArrayList<Caisse>>();
         data_AL = importTheJSON();        
 		InfoBouton infoBouton = new InfoBouton();
@@ -52,7 +52,7 @@ public class Main {
         ArrayList<Object> clientSeul_AL = new ArrayList<Object>();
         
         try {
-        	String content = readFile("results.json", StandardCharsets.UTF_8);
+        	String content = readFile("simulation/results.json", StandardCharsets.UTF_8);
             JSONObject jsonRootObject = new JSONObject(content);
             jsonDataArray = jsonRootObject.optJSONArray("data");
             
