@@ -52,7 +52,7 @@ public class Main {
         ArrayList<Object> clientSeul_AL = new ArrayList<Object>();
         
         try {
-        	String content = readFile("simulation/results.json", StandardCharsets.UTF_8);
+        	String content = readFile("results.json", StandardCharsets.UTF_8);
             JSONObject jsonRootObject = new JSONObject(content);
             jsonDataArray = jsonRootObject.optJSONArray("data");
             
